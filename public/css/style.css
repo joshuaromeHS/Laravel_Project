@@ -1,0 +1,67 @@
+html, body{ margin-left: 0px; 
+    overflow-y: scroll;
+overflow-x: hidden;}
+
+#bookdetailsbody {margin-top: 20px;}
+            
+.titleacc { font-size: 40px;
+            font-weight: bold;}
+
+.titlebooking {font-size: 50px;
+    font-weight: arial;}
+
+.personalinfo, .adress, .emegency {color: #3fb9a4;
+                font-weight: bold;}
+
+.acch5, p {color: black; font-weight: bold;}
+
+.btnobt {margin-left: 200px;;}
+
+.bookh5 {color: #3fb9a4;}
+
+.s {border-style: outset;}
+
+#popout {text-align: center;
+    width: 280px;
+    float:right;
+    box-shadow: 100px ;
+    margin-top: -400px;}
+
+#firstbox:hover {border-style:outset;
+    transition: all .1s ease-out;}
+
+i {margin-right: 10px;}
+
+#confirmation {animation: shakeno 0.5s;}
+
+@keyframes shakeno {
+    0% {margin-left: 10px;}
+
+    25% {margin-left: 30px;}
+
+    50% {margin-left: 10px;}
+
+    75% {margin-left: 30px;}
+
+    100% {margin-left: 10px;}
+
+}
+
+#popout {
+    animation: none !important;
+  }
+
+#firstbox input {
+    color: red;
+    float: right;
+}
+#firstbox label {
+        font-size: 13px;
+    cursor: pointer;
+}
+
+#firstbox label:hover {box-shadow:1px 1px 5px;
+    background-color: whitesmoke;
+    transition: all .1s ease-out;}
+
+#t830AMclock {display: none;}
